@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #ffffff;
+  color: #111;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 900px;
+  margin: 40px auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.center {
+  text-align: center;
+}
+
+.book-img {
+  width: 420px;
+  border: 2px solid #ddd;
+}
+
+.text-box {
+  width: 420px;
+  margin: 10px auto 0 auto;
+  font-size: 13px;
+  line-height: 1.25;
+  text-align: left;
+}
+
+.highlight-yellow {
+  background: #ffd966; /* “marker” yellow */
+}
+
+.red {
+  color: #d10000;
+  font-weight: bold;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 18px;
+  text-decoration: none;
+  color: #0b57d0;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
