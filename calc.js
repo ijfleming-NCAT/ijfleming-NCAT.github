@@ -20,7 +20,8 @@ while (true) {
     let y = prompt("Enter second number:");
     if (y === null) break; // Exit loop if Cancel clicked
 
-    let result; // Variable to store the computation result
+    // Variable to store the computation result
+    let result;
 
     // Convert input strings to numbers
     let numX = Number(x);
@@ -30,6 +31,7 @@ while (true) {
     if (isNaN(numX) || isNaN(numY)) {
         result = "Wrong input number"; // Error message for invalid numbers
     }
+    
     else {
         // Perform operation based on operator entered
         switch (operator) {
@@ -77,6 +79,7 @@ document.write("</table>");
 
 
 // Create Summary Table
+
 // Only build summary if there are valid results
 if (results.length > 0) {
 
